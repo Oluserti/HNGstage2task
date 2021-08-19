@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: calibri;
+    background-color: #8d8d8d;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+}
+
+hr{
+    border: 1px solid #fd9800;
+    margin: 2rem 0
+}
+.wrapper{
+    background-color: white;
+    max-width: 1320px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.wrap{
+    padding: 1rem;
+}
+@media (max-device-width: 720px){
+    .wrapper{
+        width: 90%;
+        margin: auto;
+    }
+    .wrap{
+        /* display: flex; */
+        flex-direction: column;
+        /* align-items: stretch; */
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        /* background-color: #fd9800; */
+    }
+    .right .my-name{
+        display: none;
+    }
+}
+@media (min-device-width: 720px){
+    .wrapper{
+        margin: auto;
+    }
+    .wrap{
+        display: flex;
+        flex-direction: row;
+        /* align-items: stretch; */
+    }
+    .left{
+        width: 30%;
+    }
+    .right{
+        width: 70%;
+        /* background-color: #fd9800; */
+    }
+    .left .my-name{
+        display: none;
+    }
+}
+.left{
+    padding: 0 1rem;
+    background-color:#110000 ;
+    color: #ffffff93;
+    font-size: 25px;
+    text-align: left;
+}
+.left h1, .left h3{
+    color: white;
+}
+.left .img img{
+    margin-bottom: 2rem;
+}
+.contact span{
+    color: #ffffff;
+}
+.contact .email, .contact .phone{
+    margin: 1rem 0;
+}
+.socials .social{
+    display: flex;
+    justify-content: space-between;
+}
+.social a{
+    /* text-decoration: none; */
+    color: white;
+    cursor: pointer;
+}
+.skill{
+    position: relative;
+    margin:1rem 0;
+}
+.level{
+    z-index: 3;
+}
+.skills .skill:before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 2rem;
+    background-color: white;
+    top:50%;
+    z-index: 0;
+}
+.html:after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 2rem;
+    background-color: lawngreen;
+    top: 50%;
+}
+.css:after{
+    content: " ";
+    position: absolute;
+    width: 80%;
+    height: 2rem;
+    background-color: lawngreen;
+    top: 50%;
+}
+.JavaScript:after{
+    content: " ";
+    position: absolute;
+    width: 60%;
+    height: 2rem;
+    background-color: lawngreen;
+    top: 50%;
+}
+.Wordpress:after{
+    content: " ";
+    position: absolute;
+    width: 70%;
+    height: 2rem;
+    background-color: lawngreen;
+    top: 50%;
+}
+.figma:after{
+    content: " ";
+    position: absolute;
+    width: 70%;
+    height: 2rem;
+    background-color: lawngreen;
+    top: 50%;
+}
+/* --resources */
+.resources{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+.logos .logo-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    text-align: left;
+    padding: 1rem;
+    color: #3d0000;
+    font-size: 25px;
+}
+.right h3{
+    font-weight: 700;
+}
+.right span{
+    /* font-weight: 600; */
+    color: #770303ee;
+}
+/* --experience */
+.exp-1{
+    margin-top: 1rem;
+}
+.exp-title ,.exp-titlesub{
+    font-weight: 700;
+}
+.exp-2 .exp-span{
+    margin-top: 1rem
+}
+
+/* certificates */
+.certs ul{
+    list-style-type:disc;
+}
+
+/* interests */
+.interests ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.interests li{
+    padding: 0 .3rem ;
+    justify-content: space-between;
+}
