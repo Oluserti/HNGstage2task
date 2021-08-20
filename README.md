@@ -10,4 +10,4 @@ I was able to be more patient with checking my code for any error that might sto
 ### The project hosted link
 
 
-[]
+[https://gracious-leavitt-39070e.netlify.app/]
