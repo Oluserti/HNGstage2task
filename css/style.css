@@ -97,12 +97,12 @@ hr{
 }
 .skill{
     position: relative;
-    margin:1rem 0;
+    margin: .2rem 0;
 }
 .level{
     z-index: 3;
 }
-.skills .skill:before{
+/* .skills .skill:before{
     content: " ";
     position: absolute;
     width: 100%;
@@ -150,7 +150,7 @@ hr{
     height: 2rem;
     background-color: lawngreen;
     top: 50%;
-}
+} */
 /* --resources */
 .resources{
     margin-bottom: 1rem;
@@ -161,6 +161,7 @@ hr{
     justify-content: space-between;
 }
 
+/* --right-- */
 .right{
     text-align: left;
     padding: 1rem;
@@ -171,7 +172,6 @@ hr{
     font-weight: 700;
 }
 .right span{
-    /* font-weight: 600; */
     color: #770303ee;
 }
 /* --experience */
